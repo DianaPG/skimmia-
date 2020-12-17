@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Juego Gato</title>
+    <style>
+   
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="img/cat.png" type="image/x-icon">
+    <script type="text/javascript" src="js/gato.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/anim.js"></script>
+  </head>
+  <body>
+    <!--Cubos-->
+    <div id="canvas"><canvas width="1366" height="49"></canvas></div>
+    <!--Cubos-->
+    <!--Animacion-->
+    <div  style="width:440px; margin-left: auto ;margin-right: auto ;" class="AniGato">
+         <canvas id="born_canvas" width="440" height="280">Missing the canvas </canvas>
+        <div id="hidden_canvas">
+           <canvas id="born_canvas_hidden" width="100" height="100" style="display: none;border-radius: 15px;"></canvas>
+        </div>
+    </div>
+    <!--Animacion-->
+    <!--Gato-->
+    <div id="body">
+       <button id="b11" class="buttons" name="b1" onclick="actions(this)"></button>
+       <button id="b12" class="buttons" name="b2" onclick="actions(this)"></button>
+       <button id="b13" class="buttons" name="b3" onclick="actions(this)"></button>
+       <button id="b21" class="buttons" name="b4" onclick="actions(this)"></button>
+       <button id="b22" class="buttons" name="b5" onclick="actions(this)"></button>
+       <button id="b23" class="buttons" name="b6" onclick="actions(this)"></button>
+       <button id="b31" class="buttons" name="b7" onclick="actions(this)"></button>
+       <button id="b32" class="buttons" name="b8" onclick="actions(this)"></button>
+       <button id="b33" class="buttons" name="b9" onclick="actions(this)"></button>
+    </div> 
+    <!--Gato-->
+
+  <script src="js/webgl-utils.js"></script>
+  <script src="js/3d-math.js"></script>
+  <script src="js/primitives.js"></script>
+  <script src="js/same-code-02.js"></script>
+</body>
+</html>

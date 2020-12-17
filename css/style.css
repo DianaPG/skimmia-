@@ -1,0 +1,184 @@
+ html, body {
+      margin: 0;
+      height: 100%;
+    }
+    #canvas,#canvas>canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top:0px;
+    
+    }
+.AniGato{
+	position: absolute;
+	top:0px;
+	left: 960px;
+
+}
+
+#body{
+ position:absolute;
+ width: 550px;
+ height: 550px;
+ left: 50%;
+ top: 50%;
+ margin-left: -275px;
+ margin-top: -275px;
+
+ -moz-box-shadow: 2px 2px 3px 3px white;
+ -webkik-box-shadow:2px 2px 3px 3px white;
+ box-shadow: 2px 2px 3px 3px;
+}
+button{
+ width: 150px;
+ height: 150px;
+ border: none;
+ position: absolute;
+ font-size: 100px;
+ color:white;
+}
+.clicked{
+ background-color: #06206c;
+}
+.buttons{
+ background-color: #0953cc;
+}
+.buttons:HOVER {
+ background-color:  #25ebe5 ;
+}
+#b11{
+ top:25px;
+ left:25px;
+}
+#b12{
+ top:25px;
+ left:200px;
+}
+#b13{
+ top:25px;
+ left:375px;
+}
+#b21{
+ top:200px;
+ left:25px;
+}
+#b22{
+ top:200px;
+ left:200px;
+}
+#b23{
+ top:200px;
+ left:375px;
+}
+#b31{
+ top:375px;
+ left:25px;
+}
+#b32{
+ top:375px;
+ left:200px;
+}
+#b33{
+ top:375px;
+ left:375px;
+}
+/*canvas*/
+
+   
+   body
+	 {
+		 font-family: Helvetica, Verdana, Arial, serif;
+		 color:#ACACA
+	 }
+	
+	h6{
+		color:#AA8888;
+		font-size:10px;
+		font-family: georgia;
+		text-decoration: underline;
+	}
+	
+	h2{
+		font-size:10px;
+		margin: 0px;
+		padding-bottom:20px;
+		padding-left: 3px;
+	}
+	
+	h4{
+		color:white;
+		font-size:60px;
+		text-shadow: 1px 1px 1px #888888, 1px 1px 1px #EEE;
+		margin: 0px;
+		
+	}
+	
+	
+	
+	
+	div#title_holder{
+		width:640px;
+		text-align: left;
+		margin: 0px;
+		padding: 0px;
+	}
+	div#settings_holder{
+		width:600px;
+		border: 1px  dotted #AA8888;
+		border-radius:2px;
+		margin: 0px;
+		padding:20px;
+		overflow: auto;
+		
+	}
+	input#message{
+		font-size:22px;
+		color: #555555;
+		size: 30;
+	 	font-family: Helvetica, Verdana, Arial, serif;
+	 	border: 3px solid #AA8888;;
+	}
+	
+	li{
+		list-style-type:none;padding:10px 0px 0px 3px; 
+		color: #AA8888;
+		font-size:14px;
+		
+		
+	}
+	ul{
+	text-align: left;
+	}
+	h6#urlText{
+		margin: 4px;
+	}
+	
+	p#Options{
+		color:#AA8888;
+		font-size:16px;
+		text-decoration: none;
+		margin: 2px;
+		font-family: georgia;		
+	}
+	div#footer{
+		font-family: georgia;	
+		font-size:12px;
+		font-weight: bold;
+		color:#888888;
+	}
+	a{
+	color:#AA8888
+	}
+	p#shareURL{
+	
+		font-family: georgia;	
+		font-size:12px;
+		font-weight: bold;
+		color:#888888;
+	}
+	/*Titulo Gato*/
+	.TGato{
+		position: absolute;
+		left: 1200px;
+	}
